@@ -108,7 +108,7 @@ h4 {
 }
 
 .tittleH3{
-    font-size: 18px;
+    font-size: 25git adpx;
     display: flex;
     align-items: center;
 }
@@ -117,7 +117,7 @@ h4 {
     color: var(--DarkGrayishBlue);
     text-align: center;
     padding: 30px 40px;
-    font-size: 16px;
+    font-size: 21px;
 }
 
 .containerSecti {

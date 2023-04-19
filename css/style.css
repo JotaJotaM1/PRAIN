@@ -197,7 +197,7 @@ footer {
     width: 200px;
     height: 3rem;
     border-radius: 2rem;
-    color: rgb(242, 95, 58);
+    color: var(--DarkBlue);
     font-weight: 700;
     font-size: 15px;
     background-color: white;
@@ -211,7 +211,7 @@ footer {
     color: #fff;
     font-weight: 700;
     font-size: 15px;
-    background-color: rgb(242, 95, 58);
+    background-color:var(--BrightRed);
     border: none;
     cursor: pointer;
 }

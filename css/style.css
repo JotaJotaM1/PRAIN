@@ -173,6 +173,7 @@ footer {
 
 .listFooter>a {
     color: white;
+    font-size: 20px;
     text-align: center;
     text-decoration: none;
     padding: 30px;
@@ -180,6 +181,7 @@ footer {
 }
 
 .listFooter>li {
+    list-style: none;
     margin-bottom: 30px;
 }
 
@@ -201,13 +203,6 @@ footer {
     border: none;
 }
 
-.rights {
-    color: var(--DarkGrayishBlue);
-    font-size: 10px;
-    padding: 20px;
-    text-align: center;
-}
-
 .buttonFooter {
     width: 5rem;
     height: 3rem;
@@ -218,4 +213,11 @@ footer {
     background-color: rgb(242, 95, 58);
     border: none;
     cursor: pointer;
+}
+
+.rights {
+    color: var(--DarkGrayishBlue);
+    font-size: 10px;
+    padding: 20px;
+    text-align: center;
 }

@@ -107,7 +107,7 @@ h4 {
     border-radius: 100%;
 }
 
-.tittleH3{
+.tittleH3 {
     font-size: 25px;
     display: flex;
     align-items: center;
@@ -126,4 +126,96 @@ h4 {
     border-radius: 30px;
     background: #e0e0e0;
     box-shadow: 0px 0px 20px 6px #bebebe, 0px -2px 0px 20px #ffffff;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 10%;
+    margin-top: 80px;
+    background-color: var(--BrightRed);
+}
+
+.messageText {
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 45px;
+
+}
+
+.buttMessage {
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    color: var(--BrightRed);
+    font-weight: 700;
+    font-size: 15px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: var(--DarkBlue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoFooter {
+    height: 40px;
+    width: 100px;
+    padding: 30px;
+}
+
+.listFooter>a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 30px;
+
+}
+
+.listFooter>li {
+    margin-bottom: 30px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    margin: 20px 0;
+    width: 200px;
+    height: 3rem;
+    border-radius: 2rem;
+    color: rgb(242, 95, 58);
+    font-weight: 700;
+    font-size: 15px;
+    background-color: white;
+    border: none;
+}
+
+.rights {
+    color: var(--DarkGrayishBlue);
+    font-size: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.buttonFooter {
+    width: 5rem;
+    height: 3rem;
+    border-radius: 2rem;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    background-color: rgb(242, 95, 58);
+    border: none;
+    cursor: pointer;
 }

@@ -27,7 +27,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(img/banner_final.jpg);
+    background-image: url(/img/banner_final.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

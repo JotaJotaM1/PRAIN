@@ -71,7 +71,7 @@ h1 {
 .contGalleryCard {
     display: flex;
     flex-direction: column;
-    width: 250px;
+    width: 300px;
     border-top-left-radius: 0.7rem;
     border-top-right-radius: 0.7rem;
     border-bottom-left-radius: 0.7rem;

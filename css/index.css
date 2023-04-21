@@ -77,9 +77,10 @@ h1 {
     border-bottom-left-radius: 0.7rem;
     border-bottom-right-radius: 0.7rem;
     background-color: hsl(0, 0%, 100%);
-    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.1);
 }
-.imgGalleryCard{
+
+.imgGalleryCard {
     border-top-left-radius: 0.7rem;
     border-top-right-radius: 0.7rem;
 }
@@ -100,23 +101,40 @@ h2 {
     font-weight: 100;
 }
 
-.containerSecti {
-    margin: 0 30px 30px;
-    padding-top: 35px;
-    border-radius: 30px;
-    background: var(--VaryLightGray);
-    background-color: hsl(0, 0%, 100%);
-    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.1);
+.containGeneralVal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: var(--DarkBlue);
+    padding: 60px 0;
+}
+
+.containSonVal {
+
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 30px;
+}
+
+.iconVal {
+    color: var(--VeryPaleRed);
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
 }
 
 h3 {
-    color: var(--DarkBlue);
-    text-align: center;
-    font-size: 35px;
-    font-weight: 600;
+    color: white;
     display: flex;
     justify-content: center;
-
+    background-color: var(--DarkBlue);
+    font-size: 25px;
+    padding:10px 0;
+}
+span{
+    border-bottom: 4px solid #FFD700;
 }
 
 h4 {
@@ -127,27 +145,9 @@ h4 {
     padding-bottom: 35px;
 }
 
-h3::before {
-    display: flex;
-    justify-items: center;
-    content: "";
-    height: 1rem;
-    width: 1rem;
-    margin-right: 3px;
-    background-color: var(--BrightRed);
-    border-radius: 100%;
-}
-
-h3 {
-    font-size: 25px;
-    display: flex;
-    align-items: center;
-}
-
 .text2 {
-    color: var(--DarkBlue);
+    color: var(--VeryPaleRed);
     text-align: center;
-    padding: 30px 30px;
     font-size: 21px;
     font-weight: 300;
 }

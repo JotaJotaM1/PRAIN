@@ -57,21 +57,31 @@ h1 {
     color: var(--BrightRed);
     font-weight: 700;
     text-align: center;
-    padding: 30px 0 0;
+    padding: 80px 0 0;
 }
 
 .containGallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
-    margin-top: 40px;
+    gap: 30px;
+    margin: 90px 0;
 }
 
 .contGalleryCard {
     display: flex;
     flex-direction: column;
     width: 250px;
+    border-top-left-radius: 0.7rem;
+    border-top-right-radius: 0.7rem;
+    border-bottom-left-radius: 0.7rem;
+    border-bottom-right-radius: 0.7rem;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.1);
+}
+.imgGalleryCard{
+    border-top-left-radius: 0.7rem;
+    border-top-right-radius: 0.7rem;
 }
 
 h2 {
@@ -79,7 +89,7 @@ h2 {
     text-align: center;
     color: var(--DarkBlue);
     font-size: 20px;
-    padding: 0 35px;
+    padding: 30px 0 0 0;
 }
 
 .text {
@@ -87,6 +97,7 @@ h2 {
     text-align: center;
     padding: 20px 15px;
     font-size: 21px;
+    font-weight: 100;
 }
 
 .containerSecti {
@@ -94,7 +105,8 @@ h2 {
     padding-top: 35px;
     border-radius: 30px;
     background: var(--VaryLightGray);
-    box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.75);
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.1);
 }
 
 h3 {
@@ -137,6 +149,7 @@ h3 {
     text-align: center;
     padding: 30px 30px;
     font-size: 21px;
+    font-weight: 300;
 }
 
 .message {

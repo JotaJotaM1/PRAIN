@@ -12,7 +12,9 @@ body {
     --DarkGrayishBlue: hsl(227, 12%, 40%);
     --VeryDarkBlue: hsl(233, 12%, 13%);
     --VeryPaleRed: hsl(13, 100%, 96%);
+    --WhiteMy: hsl(0, 0%, 100%);
     --VaryLightGray: hsl(0, 0%, 98%);
+    --GoldenMy: hsl(46, 100%, 50%);
 }
 
 header {
@@ -43,7 +45,7 @@ header {
 
 .text-banner1,
 .text-banner2 {
-    color: white;
+    color: var(--WhiteMy);
     font-weight: 700;
 }
 
@@ -76,7 +78,7 @@ h1 {
     border-top-right-radius: 0.7rem;
     border-bottom-left-radius: 0.7rem;
     border-bottom-right-radius: 0.7rem;
-    background-color: hsl(0, 0%, 100%);
+    background-color: var(--WhiteMy);
     box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.1);
 }
 
@@ -126,23 +128,16 @@ h2 {
 }
 
 h3 {
-    color: white;
+    color: var(--WhiteMy);
     display: flex;
     justify-content: center;
     background-color: var(--DarkBlue);
     font-size: 25px;
-    padding:10px 0;
-}
-span{
-    border-bottom: 4px solid #FFD700;
+    padding: 10px 0;
 }
 
-h4 {
-    color: var(--BrightRed);
-    text-align: center;
-    font-size: 25px;
-    font-weight: 600;
-    padding-bottom: 35px;
+span {
+    border-bottom: 4px solid var(--GoldenMy);
 }
 
 .text2 {
@@ -152,17 +147,38 @@ h4 {
     font-weight: 300;
 }
 
+.tittleCustomers{
+    margin: 40px 0;
+}
+
+.containerCustomers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.containerSmurfi,
+.containerMayaguez,
+.containerIngSanCarlos,
+.containerColgate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+    margin: 80px 30px;
+}
+
 .message {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 3rem 10%;
-    margin-top: 80px;
     background-color: var(--BrightRed);
 }
 
 .messageText {
-    color: white;
+    color: var(--WhiteMy);
     font-size: 25px;
     font-weight: 700;
     text-align: center;
@@ -176,7 +192,7 @@ h4 {
     color: var(--BrightRed);
     font-weight: 700;
     font-size: 15px;
-    background-color: white;
+    background-color: var(--WhiteMy);
     border: none;
     cursor: pointer;
 }
@@ -197,7 +213,7 @@ footer {
 
 ul>a {
     list-style: none;
-    color: white;
+    color: var(--WhiteMy);
     font-size: 20px;
     text-align: center;
     text-decoration: none;
@@ -224,7 +240,7 @@ ul>li {
     color: var(--DarkBlue);
     font-weight: 700;
     font-size: 15px;
-    background-color: white;
+    background-color: var(--WhiteMy);
     border: none;
 }
 
@@ -232,7 +248,7 @@ ul>li {
     width: 5rem;
     height: 3rem;
     border-radius: 2rem;
-    color: #fff;
+    color: var(--WhiteMy);
     font-weight: 700;
     font-size: 15px;
     background-color: var(--BrightRed);

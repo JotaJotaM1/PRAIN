@@ -83,6 +83,7 @@ header {
     .nav.visible {
         opacity: 1;
         visibility: visible;
+        transition: 300ms;
     }
 
     .nav-list {

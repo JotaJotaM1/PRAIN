@@ -1,0 +1,192 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Assistant', sans-serif;
+    background-color: var(--WhiteMy);
+}
+
+:root {
+    --BrightRed: hsl(12, 88%, 59%);
+    --DarkBlue: hsl(228, 39%, 23%);
+    --DarkGrayishBlue: hsl(227, 12%, 40%);
+    --VeryDarkBlue: hsl(233, 12%, 13%);
+    --VeryPaleRed: hsl(13, 100%, 96%);
+    --WhiteMy: hsl(0, 0%, 100%);
+    --VaryLightGray: hsl(0, 0%, 98%);
+    --GoldenMy: hsl(46, 100%, 50%);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.logoHeader {
+    height: 60px;
+    width: 100px;
+}
+
+.containLocation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+h1 {
+    font-size: 30px;
+    color: var(--BrightRed);
+    font-weight: 700;
+    text-align: center;
+    padding: 80px 0 0;
+}
+
+.containText {
+    margin: 0 30px 30px;
+    border-top: 4px solid var(--DarkBlue);
+    background-color: var(--WhiteMy);
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.text {
+    color: var(--DarkBlue);
+    font-size: 21px;
+    line-height: 25px;
+    padding: 20px;
+    text-align: center;
+}
+
+.text2 {
+    color: var(--DarkBlue);
+    font-size: 21px;
+    line-height: 25px;
+    padding: 0 20px 20px 20px;
+    text-align: center;
+}
+
+.Location {
+    font-size: 50px;
+    color: var(--DarkBlue);
+    padding: 30px;
+}
+
+.addres {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+.googleMaps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.containerInformation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--DarkBlue);
+    color: var(--WhiteMy);
+    margin-top: 30px;
+    padding: 60px 0;
+}
+
+.iconWhatsapp,
+.iconEmail,
+.iconLocatioon {
+    font-size: 40px;
+    padding: 20px;
+}
+
+.texIcones {
+    font-size: 20px;
+    text-align: center;
+    padding: 0 20px;
+
+
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 10%;
+    background-color: var(--BrightRed);
+}
+
+.messageText {
+    color: var(--WhiteMy);
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 45px;
+
+}
+
+.buttMessage {
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    color: var(--BrightRed);
+    font-weight: 700;
+    font-size: 15px;
+    background-color: var(--WhiteMy);
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: var(--DarkBlue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoFooter {
+    height: 40px;
+    width: 100px;
+    padding: 100px 0 30px 0;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    margin: 20px 0;
+    width: 200px;
+    height: 3rem;
+    border-radius: 2rem;
+    color: var(--DarkBlue);
+    font-weight: 700;
+    font-size: 15px;
+    background-color: var(--WhiteMy);
+    border: none;
+}
+
+.buttonFooter {
+    width: 5rem;
+    height: 3rem;
+    border-radius: 2rem;
+    color: var(--WhiteMy);
+    font-weight: 700;
+    font-size: 15px;
+    background-color: var(--BrightRed);
+    border: none;
+    cursor: pointer;
+}
+
+.rights {
+    color: var(--DarkGrayishBlue);
+    font-size: 10px;
+    padding: 20px;
+    text-align: center;
+}

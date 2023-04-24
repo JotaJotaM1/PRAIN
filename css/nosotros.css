@@ -20,7 +20,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
-
+    margin-bottom: 40px;
 }
 
 .logoHeader {
@@ -28,16 +28,11 @@ header {
     width: 100px;
 }
 
-.containerFather {
-    margin-top: 40px;
-}
-
 .boxOne,
 .boxTwo,
 .boxThree {
     margin: 0 30px 30px;
     border-top: 4px solid var(--DarkBlue);
-    margin-bottom: 25px;
     background-color: var(--WhiteMy);
     box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.1);
     border-radius: 8px;

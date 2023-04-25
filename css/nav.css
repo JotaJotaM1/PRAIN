@@ -22,7 +22,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 2rem;
-    background-color: var(--VaryLightGray);
+    background-color: var(--DarkBlue);
 }
 
 .logo {
@@ -38,7 +38,8 @@ header {
 
 .nav-list li a {
     text-decoration: none;
-    color: black;
+    color: var(--WhiteMy);
+    font-weight: 500;
 }
 
 ul>a {
@@ -72,7 +73,7 @@ ul>li {
     }
 
     .abrir-menu {
-        color: black;
+        color: var(--WhiteMy);
     }
 
     .cerrar-menu {

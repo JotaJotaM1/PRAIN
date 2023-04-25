@@ -22,7 +22,6 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
-    margin-bottom: 40px;
 }
 
 .logoHeader {
@@ -124,7 +123,6 @@ h2 {
 }
 
 .containSonVal {
-
     display: flex;
     flex-direction: column;
     width: 300px;

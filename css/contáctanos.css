@@ -35,7 +35,6 @@ header {
     align-items: center;
 }
 
-
 h1 {
     font-size: 30px;
     color: var(--BrightRed);
@@ -43,29 +42,13 @@ h1 {
     text-align: center;
     padding: 80px 0 0;
 }
-
-.containText {
-    margin: 0 30px 30px;
-    border-top: 4px solid var(--DarkBlue);
-    background-color: var(--WhiteMy);
-    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-}
-
-.text {
+.textH1{
     color: var(--DarkBlue);
-    font-size: 21px;
-    line-height: 25px;
-    padding: 20px;
     text-align: center;
-}
-
-.text2 {
-    color: var(--DarkBlue);
-    font-size: 21px;
-    line-height: 25px;
-    padding: 0 20px 20px 20px;
-    text-align: center;
+    padding: 40px 30px 0;
+    font-size: 18px;
+    font-style: oblique;
+    font-weight: 300;
 }
 
 .Location {
@@ -74,26 +57,51 @@ h1 {
     padding: 30px;
 }
 
-.addres {
+.containText {
+    margin: 0 10px 30px;
+    border-top: 4px solid var(--DarkBlue);
+    background-color: var(--WhiteMy);
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.title {
+    color: var(--DarkBlue);
+    font-size: 21px;
+    line-height: 25px;
+    padding: 20px;
+    text-align: center;
     font-size: 25px;
     font-weight: 600;
 }
 
+.text {
+    color: var(--DarkBlue);
+    font-size: 21px;
+    line-height: 25px;
+    padding: 0 20px 20px 20px;
+    text-align: center;
+}
+
+ol li{
+    padding-bottom: 15px;
+}
 
 .googleMaps {
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
 }
 
-.googleMaps iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
+.googleMaps iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
 }
+
 .containerInformation {
     display: flex;
     flex-direction: column;
@@ -101,7 +109,7 @@ h1 {
     background-color: var(--DarkBlue);
     color: var(--WhiteMy);
     margin-top: 30px;
-    padding: 60px 0;
+    padding: 30px 0;
 }
 
 .iconWhatsapp,

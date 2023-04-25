@@ -1,0 +1,45 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Assistant', sans-serif;
+    background-color: var(--WhiteMy);
+}
+
+:root {
+    --BrightRed: hsl(12, 88%, 59%);
+    --DarkBlue: hsl(228, 39%, 23%);
+    --DarkGrayishBlue: hsl(227, 12%, 40%);
+    --VeryDarkBlue: hsl(233, 12%, 13%);
+    --VeryPaleRed: hsl(13, 100%, 96%);
+    --WhiteMy: hsl(0, 0%, 100%);
+    --VaryLightGray: hsl(0, 0%, 98%);
+    --GoldenMy: hsl(46, 100%, 50%);
+    --Whatsapp: #25d366;
+}
+
+.btnWsp {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--Whatsapp);
+    color: var(--WhiteMy);
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0 1px 10px rgba(0, 0, 0,0.3);
+    z-index: 100;
+}
+
+.btnWsp:hover{
+    text-decoration: none ;
+    color:var(--Whatsapp);
+    background-color: var(--WhiteMy);
+}
+
+.iconWhats {
+    
+}

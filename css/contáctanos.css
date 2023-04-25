@@ -81,12 +81,19 @@ h1 {
 
 
 .googleMaps {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 10px;
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
 }
 
+.googleMaps iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
 .containerInformation {
     display: flex;
     flex-direction: column;

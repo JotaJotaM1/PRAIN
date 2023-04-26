@@ -64,7 +64,7 @@ h1 {
     padding: 80px 0 0;
 }
 
-.texteH1{
+.texteH1 {
     color: var(--DarkBlue);
     text-align: center;
     padding: 40px 30px;
@@ -84,7 +84,7 @@ h1 {
 .contGalleryCard {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 340px;
     border-top-left-radius: 0.7rem;
     border-top-right-radius: 0.7rem;
     border-bottom-left-radius: 0.7rem;
@@ -172,7 +172,7 @@ span {
     flex-direction: column;
     justify-content: center;
     width: 350px;
-    
+
 }
 
 .message {
@@ -252,4 +252,41 @@ footer {
     font-size: 10px;
     padding: 20px;
     text-align: center;
+}
+
+@media screen and (min-width: 1023px) {
+    .text-banner1,
+    .text-banner2 {
+        font-size: 50px;
+    }
+
+    .text-banner2 {
+        font-size: 25px;
+    }
+    .texteH1{
+        margin: 0 25%;
+    }
+
+    footer{
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: none;
+    align-items: none;
+    padding: 40px 0;
+    }
+    .logoFooter{
+        padding:0;
+    }
+
+    ul{
+        display: flex;
+    }
+    ul li:hover{
+        color: var(--BrightRed);
+    }
+    .rights{
+        padding: 0;
+    }
+
+    
 }

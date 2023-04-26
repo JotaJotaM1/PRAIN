@@ -205,3 +205,26 @@ footer {
     padding: 20px;
     text-align: center;
 }
+
+@media screen and (min-width: 1023px){
+    footer{
+        flex-direction: row;
+        justify-content: space-around;
+        justify-content: none;
+        align-items: none;
+        padding: 40px 0;
+        }
+        .logoFooter{
+            padding:0;
+        }
+    
+        ul{
+            display: flex;
+        }
+        ul li:hover{
+            color: var(--BrightRed);
+        }
+        .rights{
+            padding: 0;
+        }
+}

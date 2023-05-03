@@ -42,7 +42,8 @@ h1 {
     text-align: center;
     padding: 80px 0 0;
 }
-.textH1{
+
+.textH1 {
     color: var(--DarkBlue);
     text-align: center;
     padding: 40px 30px 0;
@@ -83,7 +84,7 @@ h1 {
     text-align: center;
 }
 
-ol li{
+ol li {
     padding-bottom: 15px;
 }
 
@@ -133,6 +134,7 @@ ol li{
     align-items: center;
     padding: 3rem 10%;
     background-color: var(--BrightRed);
+    padding: 50px 10px 30px;
 }
 
 .messageText {
@@ -140,19 +142,41 @@ ol li{
     font-size: 25px;
     font-weight: 700;
     text-align: center;
-    padding-bottom: 45px;
+    padding-bottom: 100px;
+    
 
 }
 
-.buttMessage {
-    padding: 1rem 2rem;
-    border-radius: 2rem;
-    color: var(--BrightRed);
+.containAvatar {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: var(--VaryLightGray);
+    border-radius: 0.9rem;
+    box-shadow: 0px 0px 18px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 70px;
+}
+
+.avatar {
+    position: absolute;
+    top: -50px;
+    width: 100px;
+    border: solid 3px var(--WhiteMy);
+    border-radius: 100px;
+}
+
+.nameAvatar {
+    margin: 60px 0 15px;
     font-weight: 700;
-    font-size: 15px;
-    background-color: var(--WhiteMy);
-    border: none;
-    cursor: pointer;
+    color: var(--BrightRed);
+}
+
+.commetAvatar {
+    color: var(--DarkBlue);
+    padding: 0 20px 30px;
+    font-weight: 500;
 }
 
 footer {
@@ -206,25 +230,38 @@ footer {
     text-align: center;
 }
 
-@media screen and (min-width: 1023px){
-    footer{
+@media screen and (min-width: 1023px) {
+    footer {
         flex-direction: row;
         justify-content: space-around;
         justify-content: none;
         align-items: none;
         padding: 40px 0;
-        }
-        .logoFooter{
-            padding:0;
-        }
-    
-        ul{
-            display: flex;
-        }
-        ul li:hover{
-            color: var(--BrightRed);
-        }
-        .rights{
-            padding: 0;
-        }
+    }
+
+    .logoFooter {
+        padding: 0;
+    }
+
+    ul {
+        display: flex;
+    }
+
+    ul li:hover {
+        color: var(--BrightRed);
+    }
+
+    .rights {
+        padding: 0;
+    }
+
+    .textH1 {
+        width: 40%;
+    }
+
+    .containComment {
+        display: flex;
+        gap: 40px;
+        margin: 0 10%;
+    }
 }
